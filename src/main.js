@@ -14,7 +14,7 @@ class Webview {
 
    run(
       callback,
-      delta = 1,
+      delta = 1000/30,
     ) {
       return new Promise((resolve) => {
         const interval = setInterval(() => {
