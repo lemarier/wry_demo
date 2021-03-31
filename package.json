@@ -1,0 +1,7 @@
+{
+   "name": "wry",
+   "scripts": {
+      "dev": "wry run ./main.js",
+      "compile": "wry compile ./main.js"
+   }
+}
