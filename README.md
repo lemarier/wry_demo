@@ -2,7 +2,22 @@
 
 This is a WIP project. Do not use please.
 
+
+### Requirements
 **[wry standalone](https://github.com/lemarier/wry_standalone) is required**
+To install wry standalone, follow the step bellow.
+
+### Shell (Mac, Linux):
+```bash
+curl -fsSL https://raw.githubusercontent.com/lemarier/wry_standalone/main/install/install.sh | sh
+```
+
+### PowerShell (Windows):
+Github require TLS 1.2 (will be removed once we use our own domain)
+```bash
+[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
+iwr https://raw.githubusercontent.com/lemarier/wry_standalone/main/install/install.ps1 -useb | iex
+```
 
 ### Run example
 ```
