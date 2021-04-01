@@ -4,8 +4,8 @@ This is a WIP project. Do not use please.
 
 
 ### Requirements
-**[wry standalone](https://github.com/lemarier/wry_standalone) is required**
-To install wry standalone, follow the step bellow.
+**[wry standalone](https://github.com/lemarier/wry_standalone) is required** follow the step bellow.
+You should only install once, we could also push binary via a deno script or a node package.
 
 ### Shell (Mac, Linux):
 ```bash
