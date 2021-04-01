@@ -8,12 +8,12 @@ This is a WIP project. Do not use please.
 
 You should only install wry once. We will probably also push binary via a deno script or a node package.
 
-### Shell (Mac, Linux):
+#### Shell (Mac, Linux):
 ```bash
 curl -fsSL https://raw.githubusercontent.com/lemarier/wry_standalone/main/install/install.sh | sh
 ```
 
-### PowerShell (Windows):
+#### PowerShell (Windows):
 Github require TLS 1.2 (will be removed once we use our own domain)
 ```bash
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
