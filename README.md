@@ -21,7 +21,9 @@ iwr https://raw.githubusercontent.com/lemarier/wry_standalone/main/install/insta
 ```
 
 ### Run example
-```
+```bash
+git clone https://github.com/lemarier/wry_demo.git
+cd wry_demo
 wry run ./src/main.js
 ```
 
